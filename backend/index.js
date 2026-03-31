@@ -246,6 +246,10 @@ app.get('/allOrders', async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+}); 
+
 
 
 
